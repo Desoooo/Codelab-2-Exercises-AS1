@@ -1,3 +1,8 @@
+# AI reference: Claude (Anthropic)
+# Prompt: "Give comments for each code"
+# Used for: writing the explanatory comments throughout this file
+# and identifying an indentation bug in showRecords (see note below)
+
 from tkinter import *
 from tkinter import messagebox, simpledialog
 
@@ -83,6 +88,9 @@ def clearRecords():
     """Remove old records from the screen before drawing new ones."""
     for widget in recordsframe.winfo_children():
         widget.destroy()
+
+# Fix: this loop was indented inside the heading loop, so only the last
+# student was displayed. It now sits at the correct level.
 
 def showRecords(studentList, showSummary=False):
     """Draw a table of the given students; optionally add a summary line."""
