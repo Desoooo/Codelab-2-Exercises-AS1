@@ -1,3 +1,7 @@
+# AI reference: Claude (Anthropic)
+# Prompt: "Give comments for each code"
+# Used for: writing the explanatory comments throughout this file
+
 # Exercise 2: Alexa-style Joke Assistant (Tkinter GUI)
 # Loads jokes from randomJokes.txt (setup punchline on each line),
 # shows a random setup, and reveals the punchline on button click.
