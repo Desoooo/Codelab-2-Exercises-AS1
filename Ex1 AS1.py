@@ -1,3 +1,7 @@
+# AI reference: Claude (Anthropic)
+# Prompt: "Give comments for each code"
+# Used for: writing the explanatory comments throughout this file
+
 import random            # used to generate random numbers and operations
 import tkinter as tk     # GUI library
 from tkinter import messagebox    #pop-up message boxes
